@@ -6,7 +6,7 @@ import path from "node:path";
 const DEFAULT_WARN_LOC = 200;
 const DEFAULT_MAX_LOC = 300;
 const DEFAULT_ACCEPTANCE_DIR = "docs/skill-hitl-acceptance";
-const IGNORED_DIRS = new Set([".git", "node_modules", ".out-of-scope", "dist", "coverage"]);
+const IGNORED_DIRS = new Set([".git", "node_modules", ".out-of-scope", "_archived", "dist", "coverage"]);
 
 function parseArgs(argv) {
   const args = {

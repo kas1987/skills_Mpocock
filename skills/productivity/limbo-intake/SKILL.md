@@ -68,7 +68,7 @@ Do not create the Mission-specific file if the mission is unknown. Use the globa
 
 ## Intake template
 
-```md
+````md
 # LIMBO-YYYY-MM-DD-### - <short title>
 
 ```yaml
@@ -99,7 +99,7 @@ status: open
 ## Recommended next action
 
 <one action>
-```
+````
 
 ## Machine-readable index line
 
